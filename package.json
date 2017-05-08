@@ -1,0 +1,32 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "pour des tests avec nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheikhbethio/testnode.git"
+  },
+  "keywords": [
+    "testnode"
+  ],
+  "author": "bay moussa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheikhbethio/testnode/issues"
+  },
+  "homepage": "https://github.com/cheikhbethio/testnode#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "supertest-as-promised": "^4.0.2"
+  }
+}
