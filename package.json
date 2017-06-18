@@ -20,13 +20,20 @@
   },
   "homepage": "https://github.com/cheikhbethio/testnode#readme",
   "dependencies": {
+    "acl": "^0.4.10",
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "method-override": "^2.3.8",
+    "mongodb": "^2.2.26",
     "mongoose": "^4.9.8",
+    "morgan": "^1.8.1",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.3.0",
+    "supertest": "^3.0.0",
     "supertest-as-promised": "^4.0.2"
   }
 }
